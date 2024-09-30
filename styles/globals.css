@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-sans;
+  color: #141414 !important;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.iec-title{
+  font-size: 40px !important;
+}
+.iec-title-color{
+  color: #191D42 !important;
+}
+.iec-para{
+  color: #737176 !important;
+}
+.iec-bg{
+  background-color: #622F88 !important;
+}
+
+.custom-border::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2px;
+  height: 200px;
+  background-color: #8e8f8f ;
+}
+
+/* Hide the border on mobile */
+@media (max-width: 768px) {
+  .custom-border::after {
+    display: none;
+  }
+}
+
