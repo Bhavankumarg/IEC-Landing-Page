@@ -1,39 +1,40 @@
+import Image from "next/image";
+
 // components/Footer.js
 const Footer = () => {
   return (
     <>
-      <footer className="bg-gray-200 pt-10 pb-10">
+      <div className="bg-[url('/footer.svg')] bg-cover bg-center h-auto" >
+      <footer className="lg:mt-20">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-8">
-            <h2 className="text-2xl font-bold">
-              Institutional Ethics Committee
-            </h2>
+          <div className="flex justify-center lg:mt-36 rounded-b-3xl bg-white w-52 items-center m-auto p-5">
+           <Image className="lg:mt-0 mt-48" width={400} height={100} src="/logo_dark.svg"/>
           </div>
 
-          <div className="flex flex-col md:flex-row justify-between items-center space-y-8 md:space-y-0">
+          <div className="flex flex-col md:flex-row gap-20 items-center space-y-0 container mx-auto justify-center lg:pt-5  pt-20">
             {/* Quick Links Section */}
             <div className="text-center md:text-left">
-              <h3 className="text-lg font-semibold text-purple-800 mb-4">
+              <h3 className="text-lg font-semibold text-purple-800 border-b-2 border-black mb-4 lg:mt-[26px] -mt-10">
                 Quick Links
               </h3>
               <ul className="space-y-2">
                 <li>
-                  <a href="#" className="text-gray-700 hover:text-purple-700">
+                  <a href="/about-us" className="text-gray-700 hover:text-purple-700">
                     About Us
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="text-gray-700 hover:text-purple-700">
+                  <a href="/what-we-do" className="text-gray-700 hover:text-purple-700">
                     What We Do
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="text-gray-700 hover:text-purple-700">
+                  <a href="/resources" className="text-gray-700 hover:text-purple-700">
                     Resources
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="text-gray-700 hover:text-purple-700">
+                  <a href="/faqs" className="text-gray-700 hover:text-purple-700">
                     FAQs
                   </a>
                 </li>
@@ -42,46 +43,38 @@ const Footer = () => {
 
             {/* Social Media Section */}
             <div className="text-center">
-              <h3 className="text-lg font-semibold text-purple-800 mb-4">
+              <h3 className="text-lg font-semibold text-purple-800 mb-4 border-b-2 border-black lg:-mt-16 -mt-12">
                 Social Media
               </h3>
               <div className="flex justify-center space-x-4">
                 <a href="#" className="text-gray-700 hover:text-purple-700">
-                  <i className="fab fa-facebook-square text-2xl"></i>
+                 <Image width={30}height={50} src="/fb.svg"/>
                 </a>
                 <a href="#" className="text-gray-700 hover:text-purple-700">
-                  <i className="fab fa-linkedin text-2xl"></i>
+                 <Image width={30}height={50} src="/in.svg"/>
                 </a>
                 <a href="#" className="text-gray-700 hover:text-purple-700">
-                  <i className="fab fa-x-twitter text-2xl"></i>
+                  <Image width={30}height={50} src="/x.svg"/>
                 </a>
               </div>
             </div>
 
             {/* Expression of Interest Section */}
-            <div className="text-center md:text-right">
-              <h3 className="text-lg font-semibold text-purple-800 mb-4">
+            <div className="text-center md:text-right ">
+              <h3 className="text-lg font-semibold text-purple-800 mb-4 border-b-2 border-black -mt-11">
                 Expression of Interest
               </h3>
-              <form action="#">
-                <div className="flex justify-center md:justify-end items-center space-x-2">
-                  <input
-                    type="email"
-                    className="px-4 py-2 border border-gray-400 rounded-lg focus:outline-none"
-                    placeholder="Your Email"
-                  />
-                  <button className="bg-gray-700 text-white px-4 py-2 rounded-lg hover:bg-gray-900">
-                    Submit
-                  </button>
-                </div>
-              </form>
+              <button className="text-white bg-[#232A35] lg:float-left mb-3 rounded-lg p-2">
+              Reach Out To Us
+              </button>
             </div>
           </div>
         </div>
       </footer>
-      <div className="bg-[#232A35] text-white flex justify-between p-2">
-        <p className="float-start px-10">All rights reserved © IEC®</p>
-        <p className="float-end pe-10">Terms and conditions Privacy policy</p>
+      </div>
+      <div className="bg-[#232A35] text-white flex lg:flex-row text-center flex-col justify-between p-2">
+        <p className="float-start lg:px-10">All rights reserved © IEC®</p>
+        <p className="float-end lg:pe-10">Terms and conditions Privacy policy</p>
       </div>
     </>
   );

@@ -168,3 +168,34 @@ export const faqsAccordion = [
       'The IEC evaluates research proposals based on ethical principles, such as respect for persons, beneficence, and justice, ensuring that research participants are not subjected to undue risk or harm.',
   },
 ]
+
+export const resourceCard =[
+  {
+    id : 1,
+    image : "/resource/res01.png",
+    head : "Lorem Ipsum",
+    subhead : "Lorem Ipsum Is Simply",
+    description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  },
+  {
+    id : 2,
+    image : "/resource/res02.png",
+    head : "Lorem Ipsum",
+    subhead : "Lorem Ipsum Is Simply",
+    description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  },
+  {
+    id : 3,
+    image : "/resource/res03.png",
+    head : "Lorem Ipsum",
+    subhead : "Lorem Ipsum Is Simply",
+    description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  },
+  {
+    id : 4,
+    image : "/resource/res04.png",
+    head : "Lorem Ipsum",
+    subhead : "Lorem Ipsum Is Simply",
+    description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  }
+]
