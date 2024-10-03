@@ -5,7 +5,7 @@ export default function CommitteeCard() {
   return (
    <>
    <div>
-    <h2 className="text-center iec-title iec-title-color font-bold py-7">Meet The Committee</h2>
+    <h2 className="text-center iec-title iec-title-color font-bold py-7 p-1">Meet The Committee</h2>
    </div>
    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0 mt-8 justify-items-center container mx-auto">
       {Committe.map((member, index) => (

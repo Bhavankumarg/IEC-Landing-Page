@@ -56,6 +56,13 @@ const Header = () => {
         {isOpen && (
           <nav className="md:hidden absolute top-16 left-0 w-full bg-white shadow-lg">
             <div className="flex flex-col items-center space-y-6 py-6">
+            <Link
+                href="/"
+                className="text-gray-700 hover:text-black"
+                onClick={() => setIsOpen(false)}
+              >
+                Home
+              </Link>
               <Link
                 href="/about-us"
                 className="text-gray-700 hover:text-black"

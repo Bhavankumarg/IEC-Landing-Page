@@ -4,10 +4,10 @@ import { faqsAccordion } from "@/utils/data";
 
 const AccordionItem = ({ question, answer, isOpen, onToggle }) => {
   return (
-    <div className={`border-b border-gray-200 ${isOpen ? "border mb-2" : ""}`}>
+    <div className={`border-gray-300 ${isOpen ? "border mb-2" : ""}`}>
       <button
         onClick={onToggle}
-        className="w-full flex justify-between items-center p-4 mb-3 bg-[#622F88] text-white text-left font-semibold"
+        className="w-full flex justify-between items-center p-5 mb-3 bg-[#622F88] text-white text-left font-semibold"
       >
         <span>{question}</span>
 
@@ -55,7 +55,7 @@ const Accordion = () => {
   return (
     <div className="max-w-5xl mx-auto mt-8 lg:p-0 p-2">
       <div>
-        <h2 className="text-[#622F88] iec-title font-bold text-center -mt-16 py-5">FAQs</h2>
+        <h2 className="text-[#622F88] iec-title font-bold text-center lg:-mt-16 -mt-32 py-5">FAQs</h2>
       </div>
       {faqsAccordion.map((item, index) => (
         <AccordionItem

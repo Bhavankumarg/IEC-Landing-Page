@@ -29,7 +29,7 @@ export const Committe = [
         id : 3,
         name: "Ashwini Bhat",
         designation: "Member",
-        image: "/about-us/img-01.png",
+        image: "/about-us/img-03.jpg",
         linkedin: "#",
       },
       {
@@ -92,7 +92,7 @@ export const Committe = [
         id : 12,
         name: "Samheeta Rao",
         designation: "Member",
-        image: "/about-us/img-01.png",
+        image: "/about-us/img-12.jpg",
         linkedin: "#",
       },
       {
