@@ -8,10 +8,10 @@ const Review = () => {
         Review Process
       </h2>
       <Image
-        src="/review.png"
-        width={700}
+        src="/review.svg"
+        width={1200}
         height={500}
-        className="flex justify-center items-center m-auto"
+        className="flex justify-center items-center m-auto w-[900px]"
       />
       <button className="iec-bg p-2 rounded-xl text-white mb-10 mt-10 w-32 border-0">
         Know More{" "}

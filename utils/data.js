@@ -3,11 +3,16 @@ export const scopeOfIec = [
         id : 1,
         image : "/scope01.svg",
         description : "Review and approve all types of research proposals involving human participants to safeguard the dignity, rights, safety, and well-being of all actual and potential research participants",
-    },
+        dataAos : "fade-right",
+        dataAosIcon : "zoom-in-up",
+      },  
     {
         id : 2,
         image : "/scope01.svg",
-        description : "Any field research projects and studies that have a biomedical product/efficacy/industry or clinical trial component will not be accepted.",    }
+        description : "Any field research projects and studies that have a biomedical product/efficacy/industry or clinical trial component will not be accepted.",    
+        dataAos : "fade-left",
+        dataAosIcon : "zoom-in-down"
+      }
 ]
 
 export const Committe = [

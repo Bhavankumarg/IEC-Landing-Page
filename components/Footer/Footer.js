@@ -1,8 +1,13 @@
+'use client'
 import Image from "next/image";
-
+import ContactForm from "../../utils/contactForm"
+import Modal from "../../app/contact-us/Modal"
+import { useState } from "react";
 // components/Footer.js
 const Footer = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false); // State for modal
   return (
+    
     <>
       <div className="bg-[url('/footer.svg')] bg-cover bg-center h-auto md:mt-0 -mt-32" >
       <footer className="lg:mt-20">
@@ -64,12 +69,17 @@ const Footer = () => {
               <h3 className="text-lg font-semibold text-purple-800 mb-4 border-b-2 border-gray-600 -mt-11">
                 Expression of Interest
               </h3>
-              <button className="text-white bg-[#232A35] lg:float-left mb-3 rounded-lg p-2">
+              <button  onClick={() => setIsModalOpen(true)} className="text-white bg-[#232A35] lg:float-left mb-3 rounded-lg p-2">
               Reach Out To Us
               </button>
             </div>
           </div>
         </div>
+        {/* modal start */}
+        <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>
+          <ContactForm /> {/* Contact form component inside the modal */}
+        </Modal>
+        {/* modal end */}
       </footer>
       </div>
       <div className="bg-[#232A35] text-white flex lg:flex-row text-center flex-col justify-between p-2">

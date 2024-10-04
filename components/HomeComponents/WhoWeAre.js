@@ -2,8 +2,8 @@ import React from "react";
 
 const WhoWeAre = () => {
   return (
-    <div className="container mx-auto text-center lg:w-[85%]">
-      <h2 className="font-bold iec-title iec-title-color text-center">Who We Are</h2>
+    <div className="container mx-auto text-center lg:w-[85%]" >
+      <h2 className="font-bold iec-title iec-title-color text-cente">Who We Are</h2>
       <p className="iec-para pt-2 p-2">
         The Catalyst Foundation, a Trust within the Catalyst Group, has created
         an internal Institutional Ethics Committee (IEC) to maintain rigorous
