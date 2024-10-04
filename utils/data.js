@@ -15,6 +15,18 @@ export const scopeOfIec = [
       }
 ]
 
+export const IECGuideline= [
+  {
+    id : 1,
+    description : 'The "Ethical Guidelines For Social Science Research In Health" by the  National Committee for Ethics in Social Science Research in Health (NCESSRH).',
+  },
+  {
+    id : 2,
+    description : ' The "National Ethical Guidelines For Biomedical And Health Research Involving Human Participants" by the Indian Council for Medical Research (ICMR).',
+  }
+]
+
+
 export const Committe = [
     {
         id : 1,

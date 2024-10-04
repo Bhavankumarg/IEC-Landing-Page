@@ -1,8 +1,17 @@
-import React from "react";
+'use client'
+import Aos from "aos";
+import React, { useEffect } from "react";
 
 const OurValues = () => {
+  useEffect(() => {
+    Aos.init({
+      duration: 400, // Duration of the animation in milliseconds
+      easing: 'ease-in-out', // Easing function
+      once: true, // Whether animation should happen only once or every time
+    });
+  }, []);
   return (
-    <div className="container mx-auto text-center lg:w-[85%]">
+    <div data-aos="zoom-in-up" className="container mx-auto text-center lg:w-[85%]" >
       <h2 className="font-bold iec-title iec-title-color text-center">
         {" "}
         Our Values and Mission

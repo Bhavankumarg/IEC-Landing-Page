@@ -1,11 +1,21 @@
+'use client'
+import Aos from "aos";
 import Image from "next/image";
-import React from "react";
+import React, { useEffect } from "react";
 
 const WhatWeDo = () => {
+  useEffect(() => {
+    Aos.init({
+      duration: 400, // Duration of the animation in milliseconds
+      easing: 'ease-in-out', // Easing function
+      once: true, // Whether animation should happen only once or every time
+    });
+  }, []);
   return (
     <>
-      <div className="container mx-auto w-[85%]">
-        <h2 className="text-center iec-title iec-title-color font-bold -mt-10">
+    <div className="container mx-auto w-[85%]">
+      <div data-aos="zoom-in-up">
+      <h2 className="text-center iec-title iec-title-color font-bold">
           What We Do
         </h2>
         <div className="iec-para pt-2 text-center p-2">
@@ -24,6 +34,8 @@ const WhatWeDo = () => {
           component.
         </p>
         </div>
+      </div>
+        
         <Image className="m-auto w-[80%] py-10" width={1200} height={1000} src="/what-we-do/review_process.png"/>
       </div>
     </>
