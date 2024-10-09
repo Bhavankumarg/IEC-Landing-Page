@@ -36,9 +36,10 @@ const AccordionItem = ({ question, answer, isOpen, onToggle }) => {
         }`}
       >
         {isOpen && (
-          <div className="text-[#35194F]">
-            <p>{answer}</p>
-          </div>
+          <div
+            className="text-[#35194F]"
+            dangerouslySetInnerHTML={{ __html: answer }}
+          />
         )}
       </div>
     </div>

@@ -5,13 +5,17 @@ import WhyDoWe from './WhyDoWe'
 import WhatWeDo from './WhatWeDo'
 import Review from './Review'
 import Scope from './Scope'
+import OurValues from '../AboutUsComponents/OurValues'
+import Flowchart from "../AboutUsComponents/Flowchart"
 
 const index = () => {
   return (
     <div>
         <Banner/>
-        <WhoWeAre/>
-        <WhyDoWe/>
+        {/* <WhoWeAre/>
+        <WhyDoWe/> */}
+        <OurValues/>
+        <Flowchart/>
         <WhatWeDo/>
         <Review/>
         <Scope/>

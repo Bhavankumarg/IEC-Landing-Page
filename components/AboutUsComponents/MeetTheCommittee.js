@@ -13,7 +13,7 @@ export default function CommitteeCard() {
           <Image
             width={300}
             height={200}
-            className="w-full h-72 object-cover rounded-3xl transition duration-500 ease-in-out flex items-center justify-center transform hover:scale-110"
+            className="w-full mt-4 h-72 object-cover rounded-3xl transition duration-500 ease-in-out flex items-center justify-center transform hover:scale-110"
             src={member.image}
             alt={member.name}
           />
@@ -25,9 +25,9 @@ export default function CommitteeCard() {
             <p className="text-sm text-[#06180C]">{member.designation}</p>
 
             <div className="flex justify-start mt-4 space-x-4">
-              <a href={member.linkedin} className=" text-blue-600">
+              <a target="_blank" href={member.linkedin} className=" text-blue-600">
                 <Image
-                  width={300}
+                  width={400}
                   height={200}
                   src="/in.svg"
                   alt="LinkedIn"
@@ -35,7 +35,7 @@ export default function CommitteeCard() {
                 />
               </a>
 
-              <a href="#" className=" text-gray-500">
+              {/* <a href="#" className=" text-gray-500">
                 <Image
                   width={300}
                   height={200}
@@ -43,7 +43,7 @@ export default function CommitteeCard() {
                   alt="Icon X"
                   className="w-6 h-6"
                 />
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

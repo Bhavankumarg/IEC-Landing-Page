@@ -10,8 +10,8 @@ const index = () => {
     <div>
         <Header/>
         <Banner/>
-        <OurValues/>
-        <FlowChart/>
+        {/* <OurValues/>
+        <FlowChart/> */}
         <MeetTheCommittee/>
     </div>
   )
