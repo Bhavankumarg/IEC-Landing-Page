@@ -2,7 +2,7 @@ export const scopeOfIec = [
     {
         id : 1,
         image : "/scope01.svg",
-        description : "Review and approve all types of research proposals involving human participants to safeguard the dignity, rights, safety, and well-being of all actual and potential research participants",
+        description : "Review and approve all types of research proposals involving human participants to safeguard the dignity, rights, safety, and well-being of all actual and potential research participants.",
         dataAos : "fade-right",
         dataAosIcon : "zoom-in-up",
       },  
@@ -142,7 +142,7 @@ export const faqsAccordion = [
     id : 2,
     question: 'Why Is An IEC Necessary?',
     answer:
-      'An IEC plays a crucial role in safeguarding the rights, safety, and well-being of human participants involved in research. It ensures that research protocols adhere to ethical principles and guidelines, minimising potential risks and maximising benefits.',
+      'An IEC plays a crucial role in safeguarding the rights, safety, and wellbeing of human participants involved in research. It ensures that research protocols adhere to ethical principles and guidelines, minimising potential risks and maximising benefits.',
   },
   {
     id : 3,
@@ -166,7 +166,7 @@ export const faqsAccordion = [
     id : 6,
     question: 'What Is The Process For Submitting A Research Proposal To The IEC?',
     answer:
-      'Researchers are required to submit their proposals, including detailed study protocols and informed consent documents, to the IEC for review. The committee conducts an initial review followed by an in-depth evaluation before making a decision. <a class="text-purple-800 font-bold" href="/what-we-do">The comple process for submission can be found here</a>',
+      'Researchers are required to submit their proposals, including detailed study protocols and informed consent documents, to the IEC for review. The committee conducts an initial review followed by an in-depth evaluation before making a decision. <a class="text-purple-800 font-bold" href="/what-we-do">The comple process for submission can be found here.</a>',
   },
   // {
   //   id : 7,

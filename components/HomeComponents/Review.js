@@ -16,7 +16,7 @@ const Review = () => {
       />
       <Link href="/what-we-do"> 
       <button className="iec-bg p-2 rounded-xl text-white mb-10 mt-10 w-32 border-0">
-        Know More{" "}
+        Know More
       </button>
       </Link>
     </div>

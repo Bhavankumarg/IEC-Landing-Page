@@ -5,7 +5,7 @@ import React from "react";
 const WhatWeDo = () => {
   return (
     <>
-    <div className="lg:pt-20">
+    <div className="lg:pt-20 container mx-auto">
     <div className="relative lg:flex bg-[#69328C] py-8 px-4">
       <div className="lg:w-1/2 text-white space-y-6 lg:px-10 container mx-auto">
         <h2 className="text-3xl font-bold iec-title">What We Do</h2>
@@ -22,7 +22,7 @@ const WhatWeDo = () => {
           a biomedical product, efficacy studies, industry-related components,
           or clinical trials.
         </p>
-        <Link href="/hat-we-do">
+        <Link href="/what-we-do">
         <button className="bg-white text-purple-800 px-5 py-2 rounded-lg mt-4">
           Know More
         </button></Link>
