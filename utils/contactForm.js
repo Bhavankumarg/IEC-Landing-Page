@@ -10,9 +10,9 @@ export default function ContactForm() {
     designation: '',
     organisation: '',
     engagement: '',
-    exploreDiscuss: '',
+    // exploreDiscuss: '',
     hearAbout: '',
-    hearFrom: '',
+    // hearFrom: '',
   });
 
   const [formErrors, setFormErrors] = useState({});
@@ -55,10 +55,7 @@ export default function ContactForm() {
       isValid = false;
     }
 
-    if (!data.hearFrom.trim()) {
-      errors.hearFrom = 'This field cannot be empty';
-      isValid = false;
-    }
+
 
     setFormErrors(errors);
     setIsFormValid(isValid);
@@ -187,7 +184,7 @@ export default function ContactForm() {
 
               <div className="mb-4">
                 <label className="block text-[#232A35] text-sm font-bold mb-2 px-2" htmlFor="hearAbout">
-                How do you hear about the Catalyst Foundation IEC?
+                  How do you hear about the Catalyst Foundation IEC?
                 </label>
                 <select
                   name="hearAbout"
