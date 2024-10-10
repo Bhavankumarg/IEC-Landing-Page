@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const WhatWeDo = () => {
@@ -21,9 +22,10 @@ const WhatWeDo = () => {
           a biomedical product, efficacy studies, industry-related components,
           or clinical trials.
         </p>
+        <Link href="/what-we-do">
         <button className="bg-white text-purple-800 px-5 py-2 rounded-lg">
           Know More
-        </button>
+        </button></Link>
       </div>
 
       <div className="lg:w-1/2 relative container mx-auto flex justify-center items-center">

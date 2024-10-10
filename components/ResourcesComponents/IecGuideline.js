@@ -2,6 +2,7 @@
 import React, { useEffect } from "react";
 import { IECGuideline } from "@/utils/data";
 import Aos from "aos";
+import Link from "next/link";
 
 const IECGuidelines = () => {
   useEffect(() => {
@@ -38,9 +39,13 @@ const IECGuidelines = () => {
                 key={index}
               >
                 <p className="text-sm mb-4">{item.description}</p>
-                <button className="bg-white text-[#191D42] py-2 px-4 rounded hover:bg-gray-200 mt-auto w-40">
-                  Read More
-                </button>
+
+
+                <Link target="_blank" href={item.link}>
+                  <button className="bg-white text-[#191D42] py-2 px-4 rounded hover:bg-gray-200 mt-auto w-40">
+                    Read More
+                  </button>
+                </Link>
               </div>
             ))}
           </div>

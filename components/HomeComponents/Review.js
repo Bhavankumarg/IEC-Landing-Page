@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Review = () => {
@@ -13,9 +14,11 @@ const Review = () => {
         height={500}
         className="flex justify-center items-center m-auto w-[900px]"
       />
+      <Link href="/what-we-do"> 
       <button className="iec-bg p-2 rounded-xl text-white mb-10 mt-10 w-32 border-0">
         Know More{" "}
       </button>
+      </Link>
     </div>
   );
 };

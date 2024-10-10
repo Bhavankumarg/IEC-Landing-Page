@@ -121,7 +121,7 @@ export default function ContactForm() {
                   value={formData.fullName}
                   onChange={handleChange}
                   className={`w-full px-3 py-2 border ${formErrors.fullName ? 'border-red' : 'border-gray-300'} rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-[#622F88]`}
-                  placeholder="Enter Full Name"
+                  placeholder="Full Name"
                   required
                 />
                 {formErrors.fullName && <p className="text-red text-sm p-1 mt-1">{formErrors.fullName}</p>}
@@ -134,7 +134,7 @@ export default function ContactForm() {
                   value={formData.designation}
                   onChange={handleChange}
                   className={`w-full px-3 py-2 border ${formErrors.designation ? 'border-red' : 'border-gray-300'} rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-[#622F88]`}
-                  placeholder="Enter Designation"
+                  placeholder="Designation"
                   required
                 />
                 {formErrors.designation && <p className="text-red text-sm p-1 mt-1">{formErrors.designation}</p>}
@@ -147,7 +147,7 @@ export default function ContactForm() {
                   value={formData.organisation}
                   onChange={handleChange}
                   className={`w-full px-3 py-2 border ${formErrors.organisation ? 'border-red' : 'border-gray-300'} rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-[#622F88]`}
-                  placeholder="Enter Organisation / Professional Affiliation"
+                  placeholder="Organisation / Professional Affiliation"
                   required
                 />
                 {formErrors.organisation && <p className="text-red text-sm p-1 mt-1">{formErrors.organisation}</p>}
@@ -187,7 +187,7 @@ export default function ContactForm() {
 
               <div className="mb-4">
                 <label className="block text-[#232A35] text-sm font-bold mb-2 px-2" htmlFor="hearAbout">
-                  How did you hear about us?
+                How do you hear about the Catalyst Foundation IEC?
                 </label>
                 <select
                   name="hearAbout"

@@ -19,10 +19,12 @@ export const IECGuideline= [
   {
     id : 1,
     description : 'The "Ethical Guidelines For Social Science Research In Health" by the  National Committee for Ethics in Social Science Research in Health (NCESSRH).',
+    link : "http://www.fabtp.com/wp-content/uploads/2010/07/NCESSRH-Guidelines.pdf",
   },
   {
     id : 2,
     description : ' The "National Ethical Guidelines For Biomedical And Health Research Involving Human Participants" by the Indian Council for Medical Research (ICMR).',
+    link : "https://main.icmr.nic.in/sites/default/files/guidelines/ICMR_Ethical_Guidelines_2017.pdf",
   }
 ]
 
