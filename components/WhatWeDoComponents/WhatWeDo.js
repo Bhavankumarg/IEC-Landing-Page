@@ -40,13 +40,14 @@ const WhatWeDo = () => {
         <Image className="m-auto w-full  py-10" width={1200} height={1000} src="/what-we-do/Review_pocess.svg" />
       </div>
       <div className="container mx-auto py-4 px-4 lg:pr-7">
-      <div className="bg-[#E8AA32] p-3">
-        <p className="">*It is clarified that this IEC is not an all-purpose mechanism to prevent wrongdoing (malpractice) in hospitals, research (external) institutions (fraud).</p>
-
-      </div>
-      <div className="bg-[#E8AA32] p-3 mt-3">
-      <p>*Please note that the timelines mentioned under this section are indicative in nature and may vary depending on the time taken by the Applicant to submit the Application with all requisite information and documents, as well as variable timelines for responses received from the Applicant to the feedback shared by the IEC.</p>
-      </div>
+      <ul className="">
+        <li className="bg-[#E8AA32] p-3">
+        *It is clarified that this IEC is not an all-purpose mechanism to prevent wrongdoing (malpractice) in hospitals, research (external) institutions (fraud).
+        </li>
+        <li className="bg-[#E8AA32] p-3 mt-4">
+        *Please note that the timelines mentioned under this section are indicative in nature and may vary depending on the time taken by the Applicant to submit the Application with all requisite information and documents, as well as variable timelines for responses received from the Applicant to the feedback shared by the IEC.
+        </li>
+      </ul>
       </div>
     </>
   );
