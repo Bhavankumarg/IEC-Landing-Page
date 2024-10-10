@@ -136,13 +136,13 @@ export const faqsAccordion = [
     id : 1,
     question: 'What Is An Institutional Ethics Committee (IEC)?',
     answer:
-      'An Institutional Ethics Committee (IEC) is a designated body responsible for reviewing, approving, and overseeing research involving human participants. It ensures that ethical standards are upheld in all research conducted by individuals or organizations.',
+      'An Institutional Ethics Committee (IEC) is a designated body responsible for reviewing, approving, and overseeing research involving human participants. It ensures that ethical standards are upheld in all research conducted by individuals or organisations.',
   },
   {
     id : 2,
     question: 'Why Is An IEC Necessary?',
     answer:
-      'An IEC plays a crucial role in safeguarding the rights, safety, and well-being of human participants involved in research. It ensures that research protocols adhere to ethical principles and guidelines, minimising potential risks and maximizing benefits.',
+      'An IEC plays a crucial role in safeguarding the rights, safety, and well-being of human participants involved in research. It ensures that research protocols adhere to ethical principles and guidelines, minimising potential risks and maximising benefits.',
   },
   {
     id : 3,
