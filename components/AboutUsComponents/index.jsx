@@ -1,8 +1,8 @@
 import React from 'react'
 import Banner from './Banner'
 import Header from '../Header/Header'
-import OurValues from './OurValues'
-import FlowChart from './Flowchart'
+import OurValues from '../HomeComponents/OurValues'
+import FlowChart from '../HomeComponents/Flowchart'
 import MeetTheCommittee from './MeetTheCommittee'
 
 const index = () => {

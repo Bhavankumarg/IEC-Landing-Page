@@ -103,7 +103,7 @@ const Header = () => {
 
         {/* Mobile Menu (shown on mobile when hamburger is clicked) */}
         {isOpen && (
-          <nav className="md:hidden absolute top-16 left-0 w-full bg-white shadow-lg">
+          <nav className="md:hidden absolute top-11 left-0 w-full bg-white shadow-lg">
             <div className="flex flex-col items-center space-y-6 py-6">
               <Link
                 href="/"

@@ -5,8 +5,8 @@ import WhyDoWe from './WhyDoWe'
 import WhatWeDo from './WhatWeDo'
 import Review from './Review'
 import Scope from './Scope'
-import OurValues from '../AboutUsComponents/OurValues'
-import Flowchart from "../AboutUsComponents/Flowchart"
+import OurValues from './OurValues'
+import Flowchart from "./Flowchart"
 
 const index = () => {
   return (
