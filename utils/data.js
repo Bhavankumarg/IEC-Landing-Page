@@ -59,6 +59,13 @@ export const Committe = [
         linkedin: "https://www.linkedin.com/in/devanshi-somaiya-md-mph-a977b546?trk=public_post_feed-actor-name&original_referer=https%3A%2F%2Fwww.linkedin.com%2Fposts%2Fdevanshi-somaiya-md-mph-a977b546_indian-women-have-no-say-in-their-own-healthcare-activity-7109461197837529088-t8lj",
       },
       {
+        id : 11,
+        name: "Dr. Parul Naib",
+        designation: "Member",
+        image: "/about-us/img-11.png",
+        linkedin: "https://cypher.analyticsindiamag.com/speaker/parul-naib/",
+      },
+      {
         id : 5,
         name: "Dr. Ramakrishna Prasad",
         designation: "Member",
@@ -100,13 +107,13 @@ export const Committe = [
         image: "/about-us/img-10.png",
         linkedin: "https://in.linkedin.com/in/kiran-bhatia-a167642a?original_referer=https%3A%2F%2Fwww.google.com%2F",
       },
-      {
-        id : 11,
-        name: "Parul Naib",
-        designation: "Member",
-        image: "/about-us/img-11.png",
-        linkedin: "https://cypher.analyticsindiamag.com/speaker/parul-naib/",
-      },
+      // {
+      //   id : 11,
+      //   name: "Parul Naib",
+      //   designation: "Member",
+      //   image: "/about-us/img-11.png",
+      //   linkedin: "https://cypher.analyticsindiamag.com/speaker/parul-naib/",
+      // },
       {
         id : 12,
         name: "Samheeta Rao",
@@ -148,13 +155,13 @@ export const faqsAccordion = [
     id : 3,
     question: 'Who Should Submit Their Research Proposals To The IEC?',
     answer:
-      'Researchers, faculty members, students, and any individuals conducting research involving human participants within the institution should submit their proposals to the IEC for review and approval.',
+      'Researchers, faculty members, students, and any individuals conducting research involving human participants within their institutions should submit their proposals to the IEC for review and approval.',
   },
   {
     id : 4,
     question: 'What Types Of Research Does The IEC Review?',
     answer:
-      'The IEC reviews a wide range of research, including clinical trials, observational studies, social and behavioural research, and any other projects involving human participants. It assesses the ethical implications of the research protocols and procedures.',
+      'The IEC reviews a wide range of research, including observational studies, social and behavioural research, and any other projects involving human participants. It assesses the ethical implications of the research protocols and procedures.',
   },
   {
     id : 5,
@@ -166,7 +173,7 @@ export const faqsAccordion = [
     id : 6,
     question: 'What Is The Process For Submitting A Research Proposal To The IEC?',
     answer:
-      'Researchers are required to submit their proposals, including detailed study protocols and informed consent documents, to the IEC for review. The committee conducts an initial review followed by an in-depth evaluation before making a decision. <a class="text-purple-800 font-bold" href="/what-we-do">The comple process for submission can be found here.</a>',
+      'Researchers are required to submit their proposals, including detailed study protocols and informed consent documents, to the IEC for review. The committee conducts an initial review followed by an in-depth evaluation before making a decision. <a class="text-purple-800 font-bold" href="/what-we-do">The complete process for submission can be found here.</a>',
   },
   // {
   //   id : 7,
@@ -184,7 +191,7 @@ export const faqsAccordion = [
     id : 9,
     question: 'What Are The Responsibilities Of Researchers Following IEC Approval?',
     answer:
-      'Researchers are responsible for adhering to the approved research protocol, obtaining informed consent from participants, ensuring participant safety, and promptly reporting any adverse events or deviations from the protocol to the IEC.',
+      'Researchers are responsible for adhering to the approved research protocol, obtaining informed consent from participants, ensuring participant safety, and promptly reporting any adverse events or deviations from the approved protocol to the IEC.',
   },
 ]
 
@@ -226,7 +233,7 @@ export const keyElements =[
   },
   {
     id : 2,
-    listDescription : "Examination of predictable risks/harms vs potential benefits",
+    listDescription : "Examination of predictable risks/harms versus potential benefits",
   },
   {
     id : 3,

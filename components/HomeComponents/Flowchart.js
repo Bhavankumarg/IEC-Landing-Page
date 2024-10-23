@@ -1,6 +1,6 @@
 export default function RectangularBlocks() {
   return (
-    <div className="lg:flex justify-center items-center lg:space-x-2 lg:p-0 p-3 lg:space-y-0 space-y-3 container m-auto mt-4">
+    <div className="lg:flex font-bold justify-center items-center lg:space-x-2 lg:p-0 p-3 lg:space-y-0 space-y-3 container m-auto mt-4">
       {/* Block 1 */}
       <div className="bg-[#46146C] text-white p-6 lg:w-64 hover:bg-[#9258BC] transition duration-500 ease-in-out h-32 flex items-center justify-center transform hover:scale-105">
         <p className="text-center">Sound in design</p>

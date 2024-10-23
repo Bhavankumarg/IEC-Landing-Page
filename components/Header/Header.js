@@ -36,7 +36,7 @@ const Header = () => {
                   : "hover:border-b-2 hover:border-black"
               }`}
             >
-              About
+              About Us
             </Link>
             <Link
               href="/what-we-do"
@@ -125,7 +125,7 @@ const Header = () => {
                 }`}
                 onClick={() => setIsOpen(false)}
               >
-                About
+                About Us
               </Link>
               <Link
                 href="/what-we-do"

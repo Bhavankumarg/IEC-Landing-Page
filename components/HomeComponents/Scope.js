@@ -24,7 +24,7 @@ const Scope = () => {
               <div  className="icon mb-4">
                 <img data-aos={item.dataAosIcon} src={item.image} alt="Document Icon" />
               </div>
-              <p className="scope-text pb-4">
+              <p className="scope-text pb-4 text-justify">
                 {item.description}
               </p>
             </div>

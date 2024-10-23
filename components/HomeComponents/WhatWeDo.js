@@ -7,7 +7,7 @@ const WhatWeDo = () => {
     <>
     <div className="lg:pt-20 container mx-auto">
     <div className="relative lg:flex bg-[#69328C] py-8 px-4">
-      <div className="lg:w-1/2 text-white space-y-6 lg:px-10 container mx-auto">
+      <div className="lg:w-1/2 text-white space-y-6 lg:px-10 container mx-auto text-justify">
         <h2 className="text-3xl font-bold iec-title">What We Do</h2>
         <p>
           To ensure the highest ethical standards in research and community
