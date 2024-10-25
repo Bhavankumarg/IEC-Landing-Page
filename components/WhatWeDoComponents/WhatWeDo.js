@@ -38,12 +38,12 @@ const WhatWeDo = () => {
       </div>
       <div>
       <h2 className="font-bold iec-title iec-title-color text-center py-10">Review Process*</h2>
-        <Image className="m-auto w-full  py-10" width={1200} height={1000} src="/what-we-do/Review_pocess.svg" />
+        <Image className="m-auto w-full  py-10" width={1200} height={1000} src="/what-we-do/rev2.jpg" />
       </div>
       <div className="container mx-auto py-4 px-4 lg:pr-7">
       <ul className="">
         <li className="bg-[#E8AA32] p-3">
-        *It is clarified that this IEC is not an all-purpose mechanism to prevent wrongdoing (malpractice) in hospitals, research (external) institutions (fraud).
+        *It is clarified that the IEC is not an all-purpose mechanism to prevent wrongdoing of any kind by the Applicant, including but not limited to malpractice or fraud.
         </li>
         <li className="bg-[#E8AA32] p-3 mt-4">
         *Please note that the timelines mentioned under this section are indicative in nature and may vary depending on the time taken by the Applicant to submit the Application with all requisite information and documents, as well as variable timelines for responses received from the Applicant to the feedback shared by the IEC.
