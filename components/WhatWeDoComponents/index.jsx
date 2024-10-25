@@ -3,6 +3,7 @@ import Banner from './Banner'
 import Header from '../Header/Header'
 import WhatWeDo from './WhatWeDo'
 import KeyElements from './KeyElements'
+import ReachOut from './ReachOut'
 
 const index = () => {
   return (
@@ -10,6 +11,7 @@ const index = () => {
         <Header/>
         <Banner/>
         <WhatWeDo/>
+        <ReachOut />
         <KeyElements/>
     </div>
   )
