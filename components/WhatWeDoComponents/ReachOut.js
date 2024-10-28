@@ -12,7 +12,7 @@ const ReachOut = () => {
           To Initiate The Review Process With IEC, Fill The Form Below
         </p>
       </div>
-      <div className="mb-5">
+      <div className="mb-10">
         <button
           onClick={() => setIsModalOpen(true)}
           className="text-white bg-[#622F88] flex items-center justify-center m-auto rounded-lg p-2"

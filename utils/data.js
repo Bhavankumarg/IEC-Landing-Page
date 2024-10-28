@@ -63,7 +63,7 @@ export const Committe = [
         name: "Dr. Parul Naib",
         designation: "Member",
         image: "/about-us/img-11.png",
-        linkedin: "https://cypher.analyticsindiamag.com/speaker/parul-naib/",
+        linkedin: "https://www.linkedin.com/in/parulnaib/",
       },
       {
         id : 5,
@@ -149,7 +149,7 @@ export const faqsAccordion = [
     id : 2,
     question: 'Why Is An IEC Necessary?',
     answer:
-      'An IEC plays a crucial role in safeguarding the rights, safety, and wellbeing of human participants involved in research. It ensures that research protocols adhere to ethical principles and guidelines, minimising potential risks and maximising benefits.',
+      'An IEC plays a crucial role in safeguarding the rights, safety, and well-being of human participants involved in research. It ensures that research protocols adhere to ethical principles and guidelines, minimising potential risks and maximising benefits.',
   },
   {
     id : 3,
@@ -237,7 +237,7 @@ export const keyElements =[
   },
   {
     id : 3,
-    listDescription : "Procedure for selection of subjects in methodology including inclusion/ exclusion, withdrawal criteria, and other issues like advertisement details",
+    listDescription : "Procedure for selection of subjects in methodology including inclusion/exclusion, withdrawal criteria, and other issues like advertisement details",
   },
   {
     id : 4,

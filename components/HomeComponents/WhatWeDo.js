@@ -14,7 +14,7 @@ const WhatWeDo = () => {
           engagement, the Catalyst Foundation IEC accepts submissions from all
           organisations involved in social development research, carefully
           evaluating them through a comprehensive ethical framework to protect
-          the dignity, rights, safety, and wellbeing of all actual and potential
+          the dignity, rights, safety, and well-being of all actual and potential
           research participants.
         </p>
         <p>

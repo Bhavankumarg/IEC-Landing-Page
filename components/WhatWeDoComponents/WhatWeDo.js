@@ -13,7 +13,7 @@ const WhatWeDo = () => {
   }, []);
   return (
     <>
-      <div className="container mx-auto w-[85%]">
+      <div className="container mx-auto w-[85%] mt-10">
         <div data-aos="zoom-in-up">
           <h2 className="text-center iec-title iec-title-color font-bold">
             What We Do
@@ -40,7 +40,7 @@ const WhatWeDo = () => {
       <h2 className="font-bold iec-title iec-title-color text-center py-10">Review Process*</h2>
         <Image className="m-auto w-full  py-10" width={1200} height={1000} src="/what-we-do/rev2.jpg" />
       </div>
-      <div className="container mx-auto py-4 px-4 lg:pr-7">
+      <div className="container mx-auto py-7 px-4 lg:pr-7">
       <ul className="">
         <li className="bg-[#E8AA32] p-3">
         *It is clarified that the IEC is not an all-purpose mechanism to prevent wrongdoing of any kind by the Applicant, including but not limited to malpractice or fraud.
