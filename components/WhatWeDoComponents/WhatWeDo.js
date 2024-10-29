@@ -13,7 +13,7 @@ const WhatWeDo = () => {
   }, []);
   return (
     <>
-      <div className="container mx-auto w-[85%] mt-10">
+      <div className="container mx-auto w-[85%] -mt-10">
         <div data-aos="zoom-in-up">
           <h2 className="text-center iec-title iec-title-color font-bold">
             What We Do
