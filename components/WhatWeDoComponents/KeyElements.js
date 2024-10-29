@@ -35,7 +35,7 @@ export default function Home() {
               <div className="flex justify-center items-center" data-aos="fade-left">
                 <div className="flex items-center justify-center h-full">
                   <Image
-                    width={300}
+                    width={370}
                     height={200}
                     objectFit="contain"
                     src="/what-we-do/key_elements.png"

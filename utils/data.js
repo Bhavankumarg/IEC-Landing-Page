@@ -45,12 +45,14 @@ export const Committe = [
         linkedin: "https://in.linkedin.com/in/anita-lopez-1a48911b",
       },
       {
-        id : 3,
-        name: "Ashwini Bhat",
-        designation: "Member",
-        image: "/about-us/img-03.jpg",
-        linkedin: "https://in.linkedin.com/in/ashwinigbhat",
+        "id": 3,
+        "name": "Ashwini Bhat",
+        "designation": "Member",
+        "image": "/about-us/img-03.jpg",
+        "linkedin": "https://in.linkedin.com/in/ashwinigbhat",
+        "className": "w-24 h-24 rounded-full object-cover"
       },
+      
       {
         id : 4,
         name: "Dr. Devanshi Somaiyya",
