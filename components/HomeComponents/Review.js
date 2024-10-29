@@ -9,7 +9,7 @@ const Review = () => {
         Review Process
       </h2>
       <Image
-        src="/rev.png"
+        src="/review.jpg"
         width={1200}
         height={500}
         className="flex justify-center items-center m-auto w-[900px]"
