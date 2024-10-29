@@ -144,7 +144,7 @@ export default function ContactForm() {
                   value={formData.organisation}
                   onChange={handleChange}
                   className={`w-full px-3 py-2 border ${formErrors.organisation ? 'border-red' : 'border-gray-300'} rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-[#622F88]`}
-                  placeholder="Organisation / Professional Affiliation"
+                  placeholder="Organisation/Professional Affiliation"
                   required
                 />
                 {formErrors.organisation && <p className="text-red text-sm p-1 mt-1">{formErrors.organisation}</p>}
@@ -163,7 +163,7 @@ export default function ContactForm() {
                 >
                   <option value="">Select Option</option>
                   <option value="Option1">Keen to know more about the IEC and its work, processes etc.</option>
-                  <option value="Option2">Interested in applying to the IEC regarding a research study (Must be of a non-clinical / non-biomedical nature and involve only human participants)</option>
+                  <option value="Option2">Interested in applying to the IEC regarding a research study (Must be of a non-clinical/non-biomedical nature and involve only human participants)</option>
                   <option>Other</option>
                 </select>
                 {formErrors.engagement && <p className="text-red text-sm p-1 mt-1">{formErrors.engagement}</p>}

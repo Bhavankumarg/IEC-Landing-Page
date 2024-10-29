@@ -56,7 +56,7 @@ const Accordion = () => {
   return (
     <div className="max-w-5xl mx-auto mt-8 lg:p-0 p-2">
       <div>
-        <h2 className="text-[#622F88] iec-title font-bold text-center lg:-mt-10 -mt-10 mb-5">FAQs</h2>
+        <h2 className="text-[#622F88] iec-title font-bold text-center lg:-mt-20 -mt-10 mb-5 relative">FAQs</h2>
       </div>
       {faqsAccordion.map((item, index) => (
         <AccordionItem

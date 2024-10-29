@@ -23,9 +23,9 @@ const WhatWeDo = () => {
             <p>
               In order to assure ethics in research and community engagement, the
               Catalyst Foundation IEC accepts applications from all organisations
-              engaged in social development research and proceeds to review these
+              engaged in <br className="hidden lg:block"/> social development research and proceeds to review these
               through a holistic lens comprising various aspects of ethics, to
-              safeguard the dignity, rights, safety, and wellbeing of all actual and
+              safeguard the dignity, rights, safety, and <br className="hidden lg:block"/> well-being of all actual and
               potential research participants.
             </p>
             <p className="pt-2 p-2">

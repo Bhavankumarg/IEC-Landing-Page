@@ -5,7 +5,7 @@ export default function CommitteeCard() {
   return (
     <>
       <div>
-        <h2 className="text-center iec-title iec-title-color font-bold lg:-mt-5 p-1">
+        <h2 className="text-center iec-title iec-title-color font-bold lg:-mt-10  p-1 relative">
           Meet The Committee
         </h2>
       </div>
@@ -15,8 +15,8 @@ export default function CommitteeCard() {
             <div className="group">
               <Image
                 width={300}
-                height={200}
-                className="w-full mt-4 h-72 object-cover rounded-3xl transition duration-500 ease-in-out flex items-center justify-center transform group-hover:scale-110"
+                height={200} 
+                className="border w-full mt-4 h-72 object-cover rounded-3xl transition duration-500 ease-in-out flex items-center justify-center transform group-hover:scale-110"
                 src={member.image}
                 alt={member.name}
               />

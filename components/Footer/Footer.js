@@ -123,9 +123,9 @@ const Footer = () => {
       </div>
       <div className="bg-[#232A35] text-white flex lg:flex-row text-center flex-col justify-between p-3">
         <div className="container mx-auto">
-          <p className="lg:float-start lg:px-10">All rights reserved © IEC®</p>
-          <p className="lg:float-end lg:pe-10">
-            Terms and conditions Privacy policy
+          <p className="lg:float-start md:float-start  lg:px-10">All rights reserved © IEC®</p>
+          <p className="lg:float-end md:float-end lg:pe-10">
+            Terms and conditions | Privacy policy
           </p>
         </div>
       </div>

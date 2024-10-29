@@ -12,18 +12,18 @@ const OurValues = () => {
   }, []);
   return (
     <div data-aos="zoom-in-up" className="container mx-auto text-center lg:w-[85%] -mt-10" >
-      <h2 className="font-bold iec-title iec-title-color text-center">
+      <h2 className="font-bold iec-title iec-title-color text-center mb-3">
         {" "}
         Our Values and Mission
       </h2>
       <p className="iec-para pt-2 p-2">
         The Catalyst Foundation, along with the Catalyst Group of institutions,
-        is firmly committed to promoting ethical practices in the context of
+        is firmly committed to promoting ethical practices in the <br className="hidden lg:block"/> context of
         social impact initiatives and organisations.
       </p>
       <p className="iec-para pt-2 p-2">
         We believe that great care must be taken when engaging with different
-        communities, especially when conducting research studies to ensure the
+        communities, especially when conducting research studies to <br className="hidden lg:block" /> ensure the
         protection of their dignity, safety, and rights.
       </p>
       <p className="iec-para pt-2 p-2">

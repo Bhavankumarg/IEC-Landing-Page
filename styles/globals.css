@@ -68,3 +68,11 @@ body {
 .overflow-hidden {
   overflow: hidden !important;
 }
+
+
+.member-image {
+  width: 100px; /* adjust width as needed */
+  height:0px; /* adjust height as needed */
+  border-radius: 50%; /* for circular image */
+  object-fit: cover; /* ensures image fits within set dimensions */
+}

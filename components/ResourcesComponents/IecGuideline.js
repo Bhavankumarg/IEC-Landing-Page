@@ -16,7 +16,7 @@ const IECGuidelines = () => {
     <>
       {/* Heading Section */}
       <div className="flex justify-center">
-        <h2 className="text-center iec-title iec-title-color font-bold -mt-1 text-3xl lg:text-4xl">
+        <h2 className="text-center iec-title iec-title-color font-bold -mt-10 relative text-3xl lg:text-4xl">
           Resources
         </h2>
       </div>

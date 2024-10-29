@@ -45,12 +45,12 @@ export const Committe = [
         linkedin: "https://in.linkedin.com/in/anita-lopez-1a48911b",
       },
       {
-        "id": 3,
-        "name": "Ashwini Bhat",
-        "designation": "Member",
-        "image": "/about-us/img-03.jpg",
-        "linkedin": "https://in.linkedin.com/in/ashwinigbhat",
-        "className": "w-24 h-24 rounded-full object-cover"
+        id: 3,
+        name: "Ashwini Bhat",
+        designation: "Member",
+        image: "/about-us/img-03.png",
+        linkedin: "https://in.linkedin.com/in/ashwinigbhat",
+        className: "member-image"
       },
       
       {
@@ -83,7 +83,7 @@ export const Committe = [
       },
       {
         id : 7,
-        name: "Hareesh BS",
+        name: "Hareesh B S",
         designation: "Member",
         image: "/about-us/img-07.png",
         linkedin: "https://in.linkedin.com/in/hareesh-b-s-0416b92a",
@@ -120,7 +120,7 @@ export const Committe = [
         id : 12,
         name: "Samheeta Rao",
         designation: "Member",
-        image: "/about-us/img-12.jpg",
+        image: "/about-us/img-12.png",
         linkedin: "https://in.linkedin.com/in/samheeta-rao",
       },
       {
