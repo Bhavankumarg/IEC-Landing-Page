@@ -16,15 +16,15 @@ export const scopeOfIec = [
 ]
 
 export const IECGuideline= [
-  {
-    id : 1,
-    description : 'The "Ethical Guidelines For Social Science Research In Health" by the  National Committee for Ethics in Social Science Research in Health (NCESSRH).',
-    link : "http://www.fabtp.com/wp-content/uploads/2010/07/NCESSRH-Guidelines.pdf",
-  },
+  // {
+  //   id : 1,
+  //   description : 'The "Ethical Guidelines For Social Science Research In Health" by the  National Committee for Ethics in Social Science Research in Health (NCESSRH).',
+  //   link : "http://www.fabtp.com/wp-content/uploads/2010/07/NCESSRH-Guidelines.pdf",
+  // },
   {
     id : 2,
     description : ' The "National Ethical Guidelines For Biomedical And Health Research Involving Human Participants" by the Indian Council for Medical Research (ICMR).',
-    link : "https://main.icmr.nic.in/sites/default/files/guidelines/ICMR_Ethical_Guidelines_2017.pdf",
+    link : "https://ethics.ncdirindia.org/asset/pdf/ICMR_National_Ethical_Guidelines.pdf",
   }
 ]
 
@@ -64,7 +64,7 @@ export const Committe = [
         id : 11,
         name: "Dr. Parul Naib",
         designation: "Member",
-        image: "/about-us/img-11.png",
+        image: "/about-us/ParulNaib.jpg",
         linkedin: "https://www.linkedin.com/in/parulnaib/",
       },
       {
@@ -194,6 +194,12 @@ export const faqsAccordion = [
     question: 'What Are The Responsibilities Of Researchers Following IEC Approval?',
     answer:
       'Researchers are responsible for adhering to the approved research protocol, obtaining informed consent from participants, ensuring participant safety, and promptly reporting any adverse events or deviations from the approved protocol to the IEC.',
+  },
+  {
+    id : 10,
+    question: 'What types of research applications does the IEC review? ',
+    answer:
+      'The IEC reviews a wide range of research, including observational studies, social and behavioural research, and any other projects involving human participants. It assesses the ethical implications of the research protocols and procedures.  The only exclusions to the applications we review are those involving a biomedical product, efficacy studies, industry-related components, or clinical trials.',
   },
 ]
 

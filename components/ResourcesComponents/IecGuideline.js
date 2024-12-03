@@ -35,7 +35,7 @@ const IECGuidelines = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {IECGuideline.map((item, index) => (
               <div data-aos="fade-left"
-                className="bg-[#191D42] text-white rounded-lg p-6 flex flex-col justify-between"
+                className="bg-[#191D42] text-white rounded-lg p-6 flex flex-col justify-between lg:w-96 h-52"
                 key={index}
               >
                 <p className="text-sm mb-4">{item.description}</p>

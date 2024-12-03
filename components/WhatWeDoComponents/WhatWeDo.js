@@ -38,7 +38,7 @@ const WhatWeDo = () => {
       </div>
       <div>
       <h2 className="font-bold iec-title iec-title-color text-center py-10">Review Process*</h2>
-        <Image className="m-auto w-full  py-10" width={1200} height={1000} src="/what-we-do/rev2.jpg" />
+        <Image className="m-auto w-full  py-10" width={1200} height={1000} src="/what-we-do/review.jpg" />
       </div>
       <div className="container mx-auto py-7 px-4 lg:pr-7">
       <ul className="">
