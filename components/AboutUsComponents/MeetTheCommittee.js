@@ -5,7 +5,7 @@ export default function CommitteeCard() {
   return (
     <>
       <div>
-        <h2 className="text-center iec-title iec-title-color font-bold lg:-mt-10  p-1 relative">
+        <h2 className="text-center iec-title iec-title-color font-bold  p-1 relative">
           Meet The Committee
         </h2>
       </div>

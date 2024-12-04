@@ -13,7 +13,7 @@ function NextSeo({ title, description, path, metaImage }) {
       <title>{title}</title>
       <meta name="description" content={description} />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <meta name="robots" content="index, follow" />
+      <meta name="robots" content="noindex, nofollow" />
       <link rel="icon" href="/images/cac_favicon-150x150.png" />
       {/* <link rel="canonical" href={`${configData.websiteMainUrl}${path}`} /> */}
       <meta property="og:locale" content="en_US" />

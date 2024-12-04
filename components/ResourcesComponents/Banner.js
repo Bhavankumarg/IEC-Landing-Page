@@ -13,7 +13,7 @@ const Banner = () => {
   }, []);
   
   return (
-    <div data-aos="zoom-in" className="h-[650px] lg:bg-[url('/resource/banner.png')] bg-cover m-0 p-0  bg-[url('/resource/mobile-banner.png')]">
+    <div data-aos="zoom-in" className="lg:h-[70vh] h-[650px] lg:bg-[url('/resource/banner.png')] bg-cover m-0 p-0  bg-[url('/resource/mobile-banner.png')]">
     <div className="flex flex-col items-center justify-between text-white h-full m-0 p-0">
       <Image
         src="/logo.svg"
