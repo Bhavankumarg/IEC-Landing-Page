@@ -11,7 +11,7 @@ const OurValues = () => {
     });
   }, []);
   return (
-    <div data-aos="zoom-in-up" className="container mx-auto text-center lg:w-[85%] -mt-10" >
+    <div data-aos="zoom-in-up" className="container mx-auto text-center lg:w-[85%] " >
       <h2 className="font-bold iec-title iec-title-color text-center mb-3">
         {" "}
         Our Values and Mission
