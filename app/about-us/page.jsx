@@ -1,25 +1,23 @@
-import React from 'react'
-import AboutUsComponents from "../../components/AboutUsComponents"
-export const metadata = {
+import React from "react";
+import AboutUsComponents from "../../components/AboutUsComponents";
+import Seo from "@/components/Seo/Seo";
+const seoField = {
   title: "About Us: Catalyst Foundation Institutional Ethics Committee Team",
-  description: "Meet the committee’s passionate members working to ensure the practice of ethical research methods in the social sector.",
-  alternates: {
-    canonical: "/about-us",
-  },
-  openGraph: {
-    title: "About Us: Catalyst Foundation Institutional Ethics Committee Team",
-    description: "Meet the committee’s passionate members working to ensure the practice of ethical research methods in the social sector.",
-    url: "",
-    images: "/what-we-do.png",
-  },
+  description:
+    "Meet the committee’s passionate members working to ensure the practice of ethical research methods in the social sector.",
+  path: "",
+  metaImage: "/what-we-do.png",
+  pageType: "WebSite",
 };
 const page = () => {
-  
   return (
-    <div>
-        <AboutUsComponents/>
-    </div>
-  )
-}
+    <>
+      <Seo {...seoField} />
+      <div>
+        <AboutUsComponents />
+      </div>
+    </>
+  );
+};
 
-export default page
+export default page;

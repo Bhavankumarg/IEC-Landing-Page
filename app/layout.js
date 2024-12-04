@@ -16,6 +16,13 @@ export const metadata = {
     images: "/what-we-do.png",
   },
 };
+const seoField = {
+    title: "Integrated solutions to shape social equity | CMS",
+    description:
+      "We devise integrated solutions for complex problems to achieve social equity for vulnerable groups through partner collaboration.",    path: "",
+    metaImage: "/social.png",
+    pageType: "WebSite"
+  };
 
 const HomePageSchema = {
   "@context": "https://schema.org",
