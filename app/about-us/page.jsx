@@ -5,7 +5,7 @@ const seoField = {
   title: "About Us: Catalyst Foundation Institutional Ethics Committee Team",
   description:
     "Meet the committee’s passionate members working to ensure the practice of ethical research methods in the social sector.",
-  path: "",
+  path: "about-us",
   metaImage: "/what-we-do.png",
   pageType: "WebSite",
 };
