@@ -23,7 +23,7 @@ export const IECGuideline= [
   // },
   {
     id : 2,
-    description : ' The "National Ethical Guidelines For Biomedical And Health Research Involving Human Participants" by the Indian Council for Medical Research (ICMR).',
+    description : 'National Ethical Guidelines for Biomedical and Health Research Involving Human Participants',
     link : "https://ethics.ncdirindia.org/asset/pdf/ICMR_National_Ethical_Guidelines.pdf",
   }
 ]
@@ -159,12 +159,12 @@ export const faqsAccordion = [
     answer:
       'Researchers, faculty members, students, and any individuals conducting research involving human participants within their institutions should submit their proposals to the IEC for review and approval.',
   },
-  {
-    id : 4,
-    question: 'What Types Of Research Does The IEC Review?',
-    answer:
-      'The IEC reviews a wide range of research, including observational studies, social and behavioural research, and any other projects involving human participants. It assesses the ethical implications of the research protocols and procedures.',
-  },
+  // {
+  //   id : 4,
+  //   question: 'What Types Of Research Does The IEC Review?',
+  //   answer:
+  //     'The IEC reviews a wide range of research, including observational studies, social and behavioural research, and any other projects involving human participants. It assesses the ethical implications of the research protocols and procedures.',
+  // },
   {
     id : 5,
     question: 'How Does The IEC Ensure Ethical Standards Are Met?',
