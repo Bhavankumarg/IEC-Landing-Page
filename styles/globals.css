@@ -76,3 +76,7 @@ body {
   border-radius: 50%; /* for circular image */
   object-fit: cover; /* ensures image fits within set dimensions */
 }
+
+.bk{
+  font-size: 10px;
+}

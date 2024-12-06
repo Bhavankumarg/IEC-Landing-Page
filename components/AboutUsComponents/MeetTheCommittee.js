@@ -16,7 +16,7 @@ export default function CommitteeCard() {
               <Image
                 width={300}
                 height={200} 
-                className="border w-full mt-4 h-72 object-cover rounded-3xl transition duration-500 ease-in-out flex items-center justify-center transform group-hover:scale-110"
+                className="border w-full mt-4 h-72 object-cover rounded-3xl transition duration-500 ease-in-out flex items-center justify-center transform group-hover:scale-110 "
                 src={member.image}
                 alt={member.name}
               />

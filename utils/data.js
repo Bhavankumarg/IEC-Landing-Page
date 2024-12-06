@@ -29,6 +29,10 @@ export const IECGuideline= [
 ]
 
 
+
+
+
+
 export const Committe = [
     {
         id : 1,
@@ -197,7 +201,7 @@ export const faqsAccordion = [
   },
   {
     id : 10,
-    question: 'What types of research applications does the IEC review? ',
+    question: 'What Types of Research Applications Does the IEC Review? ',
     answer:
       'The IEC reviews a wide range of research, including observational studies, social and behavioural research, and any other projects involving human participants. It assesses the ethical implications of the research protocols and procedures.  The only exclusions to the applications we review are those involving a biomedical product, efficacy studies, industry-related components, or clinical trials.',
   },
