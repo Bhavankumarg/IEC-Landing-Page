@@ -85,7 +85,7 @@ export const Committe = [
         id : 7,
         name: "Hareesh B S",
         designation: "Member",
-        image: "/about-us/img-07.png",
+        image: "/about-us/hareesh.png",
         linkedin: "https://in.linkedin.com/in/hareesh-b-s-0416b92a",
       },
       {

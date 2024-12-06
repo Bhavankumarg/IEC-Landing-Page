@@ -15,9 +15,9 @@ const Footer = () => {
       <div className="bg-[url('/footer.svg')] bg-cover bg-center h-auto md:mt-0 -mt-32">
         <footer className="lg:mt-20">
           <div className="container mx-auto px-4">
-            <div className="flex justify-center lg:mt-36 rounded-b-3xl bg-white w-52 items-center m-auto p-5">
+            <div className="flex justify-center lg:mt-36 rounded-b-3xl bg-white w-52 items-center m-auto p-5 mt-10">
               <Image
-                className="lg:mt-0 mt-48"
+                className="lg:mt-0 mt-36"
                 width={400}
                 height={100}
                 src="/logo_dark.svg"
