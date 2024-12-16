@@ -4,18 +4,14 @@ import AOS from "aos";
 import "aos/dist/aos.css"; // Importing the CSS file
 import Script from "next/script";
 
-// const seoField = {
-//     title: "Integrated solutions to shape social equity | CMS",
-//     description:
-//       "We devise integrated solutions for complex problems to achieve social equity for vulnerable groups through partner collaboration.",    path: "",
-//     metaImage: "/social.png",
-//     pageType: "WebSite"
-//   };
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        {/* Google Site Verification Meta Tag */}
+        <meta name="google-site-verification" content="UdSYaRNDwSV0AIUssbkKPTNsZ2xi0g2NDFJJQaRBVAg" />
+
+        {/* Google Analytics */}
         <Script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-DJZ93DKLRP"
